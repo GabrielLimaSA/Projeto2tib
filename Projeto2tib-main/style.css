@@ -1,0 +1,134 @@
+.Imagemfundo {
+    background-image: url('imagens/backgroundmapa.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.Imagemfundo2 {
+    background-image: url('imagens/backgroundmapa.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.Imagemfundo3{
+    background-image: url('imagens/chopcrycover.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.Imagemfundo4{
+    background-image: url('imagens/backgroundmapa.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+ header{
+    display: flex;
+ }
+.CorFundo1 {
+        background-color: rgb(150, 150, 150);
+          }
+.Strongsize{
+    font-size: 50px;
+    padding: 15px;
+    margin: auto;
+}
+#CreditosC {
+    color: rgb(83, 0, 151);
+    font-size: xx-large;
+    border: 5px solid black;
+    border-bottom: 0px;
+    margin: 760px;
+    margin-bottom: 0px;
+    margin-top: 30px;
+    padding-right: 10px;
+    padding-left: 10px;
+
+}
+#CreditosH {
+       color: rgb(83, 0, 151);
+       font-size: xx-large;
+       border: 5px solid black;
+       border-bottom: 0px;
+       margin: 760px;
+       margin-top: 1px;
+       margin-bottom: 0px;
+       padding-left: 10px;
+       padding-right: 10px;
+
+}
+#CreditosG {
+    color: rgb(83, 0, 151);
+       font-size: xx-large;
+       border: 5px solid black;
+       border-bottom: 0px;
+       margin: 760px;
+       margin-top: 1px;
+       margin-bottom: 0px;
+       padding-left: 10px;
+       padding-right: 10px;
+}
+.pcredito {
+    border: 5px solid black;
+    border-top: 0px;
+    margin: 760px;
+    margin-bottom: 1px;
+    margin-top: 0px;
+    padding-right: 10px;
+} 
+#Alem {
+    width: 500px;
+    height: 200px;
+    display: center;
+    margin-left: 370px;
+}   
+p {
+    color: rgb(0, 0, 0);
+    padding-left: 10px;
+    font-size: x-large;
+}
+#ded{
+    width: 200px;
+}
+.pformat{
+    text-align: center;
+}
+*{margin: 0; padding: 0;}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+.menu{
+    background-color: rgb(255, 255, 255) ;
+    list-style:none;
+    border:1px solid #000000;
+    float:left;
+}
+.menu li{
+position:relative;
+float:left;
+border-right:1px solid #000000;
+}
+.menu li a{color:rgb(0, 0, 0); text-decoration:none; padding:5px 10px; display:block;}
+
+.menu li a:hover{
+    background-color: rgb(40, 127, 207);
+    color: #ff0000;
+    -moz-box:0 3px 10px 0 #000000;
+    -webkit-box:0 3px 10px 0 #000000;
+    text-shadow:0px 0px 5px rgb(49, 19, 19);
+}
+.menu li ul{
+    position:absolute;
+    top:25px;
+    left:0;
+    background-color: rgb(51, 22, 22);
+    display:none;
+}
+.menu li:hover ul, .menu li.over ul{display:block;}
+
+.menu li ul li{
+    border:solid #000000;
+    display:block;
+    width:150px;
+}
